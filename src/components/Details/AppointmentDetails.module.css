@@ -1,0 +1,32 @@
+.div_list_plate {
+  display: flex;
+  min-height: 60px;
+  border: 1px solid #238e2a;
+  border-radius: 14px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px 20px 20px;
+  background-color: rgb(166, 255, 184, 0.5);
+}
+
+.div_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.div_title h3 {
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.div_button_plate {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 15px;
+}

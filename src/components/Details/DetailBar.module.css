@@ -1,0 +1,79 @@
+.detail_bar_element {
+  border: 1px solid #238e2a;
+  border-radius: 14px;
+  width: 90%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail_bar_three_texts {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: normal;
+  display: flex;
+  width: 95%;
+}
+
+.detail_bar_timestamp {
+  font: inherit;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 90%;
+}
+
+.detail_bar_name {
+  font: inherit;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 45%;
+  height: 90%;
+  padding-left: 5px;
+}
+
+.detail_bar_phone {
+  font: inherit;
+  white-space: nowrap;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 42%;
+  height: 90%;
+}
+
+.detail_bar_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  padding-right: 0;
+  gap: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+@media (min-width: 900px) {
+  .detail_bar_element {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .detail_bar_three_texts {
+    width: 65%;
+  }
+  .detail_bar_buttons {
+    padding-right: 35px;
+  }
+}
+
+@media (max-width: 550px) {
+  .detail_bar_three_texts {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,29 @@
+.div_bar {
+  display: flex;
+  min-height: 100%;
+  width: 8%;
+  max-width: 50px;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.div_bar_label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  font-family: sans-serif;
+  font-size: 0.6rem;
+  font-weight: normal;
+}
+
+.div_bar_element {
+  background-color: #238e2a;
+}
+
+@media (min-width: 40rem) {
+  .div_bar_label {
+        font-size: 0.8rem;
+  }
+}

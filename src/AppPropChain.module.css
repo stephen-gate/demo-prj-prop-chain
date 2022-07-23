@@ -1,0 +1,9 @@
+.div_static_plate {
+  display: flex;
+  background-color: white;
+  border: 3px solid #238e2a;
+  flex-direction: column;
+  margin: 0 2rem;
+  border-radius: 14px;
+}
+

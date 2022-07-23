@@ -1,0 +1,12 @@
+.div_button_plate {
+  min-height: 60px;
+  border: 1px solid #238e2a;
+  border-radius: 14px;
+  margin: 0 20px 20px 20px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 60px;
+  background-color: rgb(166, 255, 184, 0.5);
+  gap: 2rem;
+}
