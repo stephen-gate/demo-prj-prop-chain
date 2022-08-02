@@ -101,7 +101,6 @@ const AddNewForm = (props) => {
         </div>
         <div className={classes.div_buttons}>
           <Button type="submit">ADD APPOINTMENT</Button>
-
           <Button type="button" onClick={handleClickCancel}>
             CANCEL
           </Button>
